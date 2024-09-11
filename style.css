@@ -1,0 +1,46 @@
+
+
+.no1{
+    color: whitesmoke;
+    background-color: brown;
+
+}
+.no2 {
+    color:whitesmoke;
+    background-color: brown; 
+}
+h1{
+    color:antiquewhite;
+    background-color: blue;
+}
+.header{
+    color:whitesmoke;
+    background-color: #610202;
+}
+h2{
+    color: green;
+    background-color: bisque;
+}
+h3{
+    color: #103510;
+    background-color: #844b05;
+
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: #cdcd32;
+    text-decoration: underline;
+}
+a:visited{
+    color:green;
+}
+#alltext{
+    color: whitesmoke;
+}
+.spanstyle{
+    color: aliceblue;
+    background-color: #103510;
+}
