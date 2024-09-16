@@ -1,0 +1,47 @@
+h1{
+    color: white;
+}
+#divexample{
+    background-color: #075d8b;
+   
+}
+a{
+    color: #035a03;
+}
+a:hover{
+    color: white;
+
+}
+
+.spanstyle{
+    color: #853300;
+}
+h2{
+    color:#075d8b;
+}
+h3{
+    background-color: yellow;
+}
+.textcolor{
+    color: #ca0808;
+}
+h4{
+    color: #d5ed34;
+    background-color: #003500;
+}
+.you{
+    background-color: #059e70;
+}
+.me{
+    color: red;
+   
+}
+
+  
+
+.if{
+    color:red;
+}
+.good{
+    background-color: yellow;
+}
