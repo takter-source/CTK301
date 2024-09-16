@@ -1,46 +1,44 @@
-
-
-.no1{
-    color: whitesmoke;
-    background-color: brown;
-
-}
-.no2 {
-    color:whitesmoke;
-    background-color: brown; 
-}
 h1{
-    color:antiquewhite;
-    background-color: blue;
+    color: white;
 }
-.header{
-    color:whitesmoke;
-    background-color: #610202;
+#divexample{
+    background-color: #075d8b;
+   
 }
-h2{
-    color: green;
-    background-color: bisque;
-}
-h3{
-    color: #103510;
-    background-color: #844b05;
-
-}
-a {
-    color: red;
-    text-decoration: none;
+a{
+    color: #035a03;
 }
 a:hover{
-    color: #cdcd32;
-    text-decoration: underline;
+    color: white;
+
 }
-a:visited{
-    color:green;
-}
-#alltext{
-    color: whitesmoke;
-}
+
 .spanstyle{
-    color: aliceblue;
-    background-color: #103510;
+    color: rgb(133, 51, 0);
+}
+h3{
+    background-color: yellow;
+}
+.textcolor{
+    color: #ca0808;
+}
+h4{
+    color: rgb(213, 237, 52);
+    background-color: #003500;
+}
+.you{
+    background-color: rgb(5, 158, 112);
+}
+.me{
+    color: red;
+   
+}
+
+  
+
+.if{
+    color:red;
+}
+.good{
+    background-color: yellow;
 }
