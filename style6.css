@@ -26,6 +26,7 @@ h1{
     padding-bottom: 20px;
     padding-left: 15px;
     grid-column: span 12;
+    font-weight: 500px;
 }
 h2{
     border-bottom: 3px solid black;
