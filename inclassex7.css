@@ -1,0 +1,117 @@
+body{
+    background-color: gray;
+    background-image: url(a62.png);
+}
+/* middle */
+#middle{
+    margin: 1em auto;
+    width: 960px;
+    border: 3px solid #000000;
+    background-color: #ffffff;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-row: 4 ;
+    font-family:  Helvetica, Georgia;
+}
+
+/* header */
+header{
+        background-color:#a2d0f8 ;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        text-decoration: none;
+        grid-column: span 12;
+        border-bottom: 2px;
+        grid-column: span 12;
+        margin-bottom: 15px;
+        border-bottom: 2px solid black;
+    }
+    
+h1 a{
+    color: #000000;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+/* navigation */
+nav{
+    grid-column: span 12;
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+   margin-right: 5px;
+
+}
+nav li{
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0px;
+    width: 220px;
+    display: inline-block;
+    background-color: #129b06;
+
+}
+nav li a{
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+nav  li a:hover{
+    color: white;
+}
+/* main */
+main{
+    background-color: #ffffff;
+    grid-column: span 9;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+/* aside */
+aside{color: #ffffff;
+    background-color: #a2d0f8;
+    font-family: sans-serif;
+    grid-column: span 3;
+    
+    font-style: italic;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.anotherh2{
+    border-bottom: 2px solid #ffffff;
+    font-size:20px;
+    font-weight: bold;
+    font-style: normal;
+}
+.floating{
+    float: left;
+    margin-right: 10px;
+
+  }
+
+p a{
+    color: #069a23;
+}
+.welcome{
+    color:#000000;
+    border-bottom: 2px solid #000000;
+}
+.floating{
+    float: right;
+}
+
+
+/* foter */
+footer{
+    background-color:#a2d0f8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    grid-column: span 12;
+    border-top: 2px solid black;
+}
