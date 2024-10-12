@@ -1,0 +1,119 @@
+body{
+    background-color: gray;
+}#middle{
+    margin: 1em auto;
+    width: 960px;
+    border: 3px solid #1403ac;
+    background-color: #036cec;
+    padding: 0px;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-row: 4 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header */
+header{background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    text-decoration: none;
+    border-bottom: 2px;
+    grid-column: span 3;
+    margin-bottom: 0px;
+}
+h1 a{
+    color: #b2cdf7;
+    text-decoration: none;
+    padding-left: 15px;
+}
+/* navigation */
+nav{
+    grid-column: span 3;
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+nav li{
+    border: 1px solid blue;
+    margin: 0px;
+    width: 234px;
+    display: inline-block;
+    background-image: linear-gradient(to top, #020b81, #0c209b, #1334b5, #1547d0, #125beb);
+
+}
+nav li a{
+    color: #9fbefd;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+nav  li a:hover{
+    color: white;
+}
+main{
+    background-color: white;
+    display: grid ;
+    gap: 8px;
+    grid-template-columns:repeat(3, 1fr);
+    grid-column: span 3;
+    align-content: center;
+   
+}
+.firstconternt{
+    grid-column: span 1;
+
+}
+.secondcontent{
+    grid-column: span 1;
+}
+
+.thirdcontent{
+    grid-column: span 1;
+}
+.floating{
+    width: 300px;
+    margin-left: 8px;
+}
+.another{
+    width: 300px; 
+}
+.float{
+    width: 300px; 
+} 
+
+p{
+    margin: 10px;
+    
+}
+p a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+.welcome{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.another{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.ano{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+
+/* footer */
+footer{
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    grid-column: span 3;
+    border-top: 3px solid #0310c8;
+}
