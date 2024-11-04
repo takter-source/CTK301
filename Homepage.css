@@ -1,0 +1,98 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    grid-row: 4 ;
+  }
+  nav{
+    grid-column: span 12;
+}
+nav ul{
+    list-style: none;
+    padding: 0px ;
+    margin: 0px auto;
+    width: 1050px;
+
+}
+nav li{
+    border: 1px solid #000000;
+    margin: 0px;
+    width: 150px;
+    display: inline-block;
+    background-color: #000000 ;
+    justify-self: center;
+    text-align: center;
+
+}
+nav li a{
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+nav  li a:hover{
+    color: rgb(216, 241, 250);
+}
+
+/* nav ends */
+
+/* Hero part */
+.img{
+    grid-column: span 12;
+}
+.floating{
+float: right;
+padding-left: 20px;
+padding-top: 30px;
+
+}
+.hero{
+    padding-top: 80px;
+    margin-right: 20px;
+text-align: justify;
+}
+/* hero part ends */
+
+/* card starts */
+
+main{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
+    grid-column: span 4;
+    align-content: center;
+   
+}
+ 
+.graphic{
+    grid-column: span 4;
+}
+.video{
+grid-column: span 4;
+}
+.web{
+    grid-column: span 4;  
+}
+ /* card ends */
+ /* footer starts */
+ .footer{
+    
+ grid-column: span 12;
+ align-content: center;
+ }
+ /* footer ends */
+
+  /* style for dummy columns, delete and replace with your own CSS */
+ 
