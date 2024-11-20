@@ -1,5 +1,5 @@
 body {
-    background-color: #010944;
+    background-color: #010319;
     color: #ffffff;
    font-family:'Roboto', sans-serif;
    
@@ -15,6 +15,10 @@ body {
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 24px;
     grid-row: 4 ;
+  }
+  bi .bi-chevron-down{
+    color:#ffffff;
+   justify-content: center;
   }
   .up{
    text-align: center;
@@ -113,6 +117,16 @@ grid-column: span 4;
 }
 
  /* card ends */
+ /* carosol */
+ #myCarousel {
+    margin-bottom: 24px;
+  }
+  
+  #myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    background: #000000;
+  }
  /* footer starts */
  .footer{
     

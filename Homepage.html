@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Home Page</title>
     <link href="Homepage.css" rel="stylesheet" type="text/css" />
+    <!-- Links and script in <head> -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -24,6 +28,7 @@
     </nav>
     <!-- Hero part start -->
       <h2 class="up">Tonmoy Akter</h2>
+      
       <p class="one">I use visuals to tell people's stories and connect ideas meaningfully.</p>
     <div  class="img">
       <img  class="floating" src="tonmoy.png" alt="picture of tonmoy" height="350" width="350">
@@ -62,6 +67,18 @@
     </div>
     
      <!-- Card part ends -->
+     <div id="myCarousel" class="f-carousel">
+      <div class="f-carousel__slide"><img src="social media post/sm1.jpg"></div>
+      
+      <div class="f-carousel__slide"><img src="social media post/sm2.jpg"></div>
+      <div class="f-carousel__slide"><img src="social media post/sm3.jpg"></div>
+      <div class="f-carousel__slide"><img src="social media post/sm4.jpg"></div>
+      <div class="f-carousel__slide"><img src="social media post/sm5.jpg"></div>
+      <div class="f-carousel__slide"><img src="social media post/sm6.png"></div>
+      <div class="f-carousel__slide"><img src="social media post/sm7.png"></div>
+      <div class="f-carousel__slide"><img src="social media post/sm8.png"></div>
+     
+  </div>
     </main>
     <video width="640" height="360" autoplay controls loop preload="auto" >
           <source src="FallCareerFair1.mp4" type="video/mp4">
@@ -75,7 +92,11 @@
  
 
     </footer>
-
+    <script>
+      const container = document.getElementById("myCarousel");
+      const options = { infinite: false };
+      new Carousel(container, options);
+  </script>
 
 
 
