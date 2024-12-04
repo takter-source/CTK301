@@ -94,10 +94,12 @@ box-shadow: 0em 0em .5em 1px;
 main{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 20px;
+    gap: 10px;
     grid-column: span 4;
     align-content: center;
-   
+    margin: 0 auto;
+    grid-column-start: 2;
+    
 }
  
 .graphic{
@@ -110,23 +112,10 @@ grid-column: span 4;
     grid-column: span 4;  
 }
 
-.bi .bi-facebook{
-    width:30px ;
-    height: 30px;
-    
-}
+
 
  /* card ends */
- /* carosol */
- #myCarousel {
-    margin-bottom: 24px;
-  }
-  
-  #myCarousel .f-carousel__slide {
-    text-align: center;
-    padding: 24px;
-    background: #000000;
-  }
+
  /* footer starts */
  .footer{
     
