@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+  <title>Photography</title>
+  <link href="photography.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="Info.html">Info</a></li>
+            <li><a href="Graphicdesign.html"> Graphic Design</a></li>
+            <li><a href="Videoediting.html">Video Editing </a></li>
+            <li><a href="Webdesign.html">Web Design</a></li>
+            <li><a href="Photography.html">Photography</a></li>
+            
+        </ul>
+    </nav>
+
+<h1>Photography Work</h1>
+
+
+<div class="full-img1" id="FullImgBox1">
+    <img src="photography/" alt="" id="FullImg1">
+    <span onclick="closeFullImg1()">x</span>
+</div>
+<div class="img-gallery1">
+    <img src="photography/im4-01.png" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im5-01.png" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im38.jpg" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im40.jpg" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im2.png" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im39.jpg" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im3.png" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im32.jpeg" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im6-01.png" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im7-01.png" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im35.jpeg" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im8-01.png" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im26.jpeg" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im27.jpeg" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im30.jpeg" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im31.jpeg" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im41.jpg" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im33.jpeg" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im34.jpeg" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im1-01.png" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im17.JPG" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im12.JPG" alt="" onclick="openFullImg1(this.src)">
+  
+</div>
+
+<div class="full-img" id="FullImgBox">
+    <img src="sm/sm1.jpg" alt="" id="FullImg">
+    <span onclick="closeFullImg()">x</span>
+</div>
+<div class="img-gallery">
+
+
+    <img src="photography/im36.jpeg" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/img24.JPG" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/bone.jpg" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/campus.jpg" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im14.JPG" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im15.JPG" alt="" onclick="openFullImg1(this.src)">
+    <img src="photography/im21.JPG" alt="" onclick="openFullImg1(this.src)">
+<script>
+    var FullImgBox= document.getElementById("FullImgBox")
+    var FullImg= document.getElementById("FullImg")
+
+    function openFullImg(pic){
+        FullImgBox.style.display="flex"
+        FullImg.src=pic;
+    }
+    function closeFullImg() {
+        FullImgBox.style.display="none"
+
+    }
+</script>
+<script class="poster">
+    var FullImgBox1= document.getElementById("FullImgBox1")
+    var FullImg1= document.getElementById("FullImg1")
+
+    function openFullImg1(pic){
+        FullImgBox1.style.display="flex"
+        FullImg1.src=pic;
+    }
+    function closeFullImg1() {
+        FullImgBox1.style.display="none"
+
+    }
+</script>
+
+</body>
+</html>

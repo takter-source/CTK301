@@ -38,8 +38,7 @@ nav ul{
     padding: 0px ;
     margin: 0px auto;
     width: 1050px;
-    margin-left: 130px;
-  
+    margin-left: 150px;
 
 
 }
@@ -62,7 +61,7 @@ nav  li a:hover{
     color:#ff7613;;
     transition: 0.6s ease-in ;
     border-radius: 2%;
-    border: 1px solid #ff7613;;
+    border: 1px solid#ff7613;;
 
 }
 
@@ -104,7 +103,7 @@ main{
 }
 main a{
     color: #ffffff;
-    text-decoration: ;
+    text-decoration: none;
 }
  
 .graphic{
@@ -129,16 +128,14 @@ grid-column: span 4;
  }
  .footer h2{
    text-align: center;
-   border-bottom: .5px solid white;
+   border-bottom: .20px solid rgb(128, 128, 128);
    
  }
  .footer p{
     text-align: center;
     padding-top: 0; 
  }
-.bi bi-linkedin{
-    align-content: center;
-}
+
  /* footer ends */
 
   /* style for dummy columns, delete and replace with your own CSS */
