@@ -11,7 +11,7 @@ nav ul{
     padding: 0px ;
     margin: 0px auto;
     width: 1050px;
-  
+    margin-left: 150px;
 
 
 }
@@ -37,6 +37,12 @@ nav  li a:hover{
     border: 1px solid #1beedb;
 
 }
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center; 
+}
 .img-gallery{
     width: 80%;
     margin: 100px auto 50px ;
@@ -51,7 +57,7 @@ nav  li a:hover{
 }
 .img-gallery img:hover{
     transform: scale(0.8) rotate(-15deg);
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow:0 32px 75px rgba(66,77, 136, 0.2) ;
 }
 
@@ -124,3 +130,20 @@ nav  li a:hover{
     color: #ffffff;
 
 }
+/* footer starts */
+.footer{
+    
+    grid-column: span 12;
+    align-content: center;
+    }
+    .footer h2{
+      text-align: center;
+      border-bottom: .20px solid rgb(128, 128, 128);
+      
+    }
+    .footer p{
+       text-align: center;
+       padding-top: 0; 
+    }
+   
+    /* footer ends */
