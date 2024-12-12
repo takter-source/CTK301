@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+  <title>Graphicdesign</title>
+  <link href="Graphicdesign.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="Info.html">Info</a></li>
+            <li><a href="Graphicdesign.html"> Graphic Design</a></li>
+            <li><a href="Videoediting.html">Video Editing </a></li>
+            <li><a href="Webdesign.html">Web Design</a></li>
+            <li><a href="Photography.html">Photography</a></li>
+            
+        </ul>
+    </nav>
+
+<h1>Graphic Design Work</h1>
+<p>  
+    I’m Tonmoy, an Adobe Certified Visual and Graphic Designer with a passion for 
+    creating impactful designs. My work focuses on crafting unique web designs and 
+    branding that resonate. Explore my portfolio to see creativity in action!
+</p>
+<h2>Poster Design</h2>
+<div class="full-img1" id="FullImgBox1">
+    <img src="pd/p1.png" alt="" id="FullImg1">
+    <span onclick="closeFullImg1()">x</span>
+</div>
+<div class="img-gallery1">
+    <img src="pd/p1.png" alt="" onclick="openFullImg1(this.src)">
+    <img src="pd/p2.jpg" alt="" onclick="openFullImg1(this.src)">
+    <img src="pd/p3.jpg" alt="" onclick="openFullImg1(this.src)">
+    <img src="pd/p4.png" alt="" onclick="openFullImg1(this.src)">
+    <img src="pd/p5.jpg" alt="" onclick="openFullImg1(this.src)">
+    <img src="pd/p6.png" alt="" onclick="openFullImg1(this.src)">
+    <img src="pd/p7.png" alt="" onclick="openFullImg1(this.src)">
+    <img src="pd/p8.jpg" alt="" onclick="openFullImg1(this.src)">
+
+</div>
+<h2>Socila media Poster Design</h2>
+<div class="full-img" id="FullImgBox">
+    <img src="sm/sm1.jpg" alt="" id="FullImg">
+    <span onclick="closeFullImg()">x</span>
+</div>
+<div class="img-gallery">
+
+<img src="sm/sm30.png" alt=" " onclick="openFullImg(this.src)">
+<img src="sm/sm31.png" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm33.png" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm32.png" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm3.jpg" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm4.jpg" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm5.jpg" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm6.png" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm7.png" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm8.png" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm17.jpg" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm18.jpg" alt=" "  onclick="openFullImg(this.src)">
+ <img src="sm/sm19.jpg" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm9.jpg" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm11-01.jpg" alt="" onclick="openFullImg(this.src)">
+ <img src="sm/sm12-01.jpg" alt="" onclick="openFullImg(this.src)">
+ <img src="sm/sm13.jpg" alt="" onclick="openFullImg(this.src)">
+ <img src="sm/sm14.jpg" alt="" onclick="openFullImg(this.src)">
+ <img src="sm/sm 15-01.jpg" alt="" onclick="openFullImg(this.src)">
+ <img src="sm/sm16.jpg" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm10.jpg" alt=" " onclick="openFullImg(this.src)">
+ 
+ <img src="sm/sm20.png" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm21.png" alt=" "  onclick="openFullImg(this.src)">
+ <img src="sm/sm22.png" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm23.png" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm24.png" alt=" " onclick="openFullImg(this.src)">
+ <img src="sm/sm25.png" alt=" " onclick="openFullImg(this.src)">
+</div>
+<script>
+    var FullImgBox= document.getElementById("FullImgBox")
+    var FullImg= document.getElementById("FullImg")
+
+    function openFullImg(pic){
+        FullImgBox.style.display="flex"
+        FullImg.src=pic;
+    }
+    function closeFullImg() {
+        FullImgBox.style.display="none"
+
+    }
+</script>
+<script class="poster">
+    var FullImgBox1= document.getElementById("FullImgBox1")
+    var FullImg1= document.getElementById("FullImg1")
+
+    function openFullImg1(pic){
+        FullImgBox1.style.display="flex"
+        FullImg1.src=pic;
+    }
+    function closeFullImg1() {
+        FullImgBox1.style.display="none"
+
+    }
+</script>
+ 
+    <!-- footer start -->
+    <footer class="footer">
+        <h2>Contact Me</h2>
+        <p>takter@ilstu.edu <br>
+        309******</p>
+        
+       
+  
+      </footer>
+
+</body>
+</html>
