@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced SVG Animation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #1e1e1e;
+        }
+        svg {
+            width: 300px;
+            height: 300px;
+        }
+        .circle {
+            fill: none;
+            stroke: #00ffcc;
+            stroke-width: 5;
+            stroke-dasharray: 314;
+            stroke-dashoffset: 314;
+            animation: draw 2s ease-in-out forwards, colorChange 4s infinite alternate;
+        }
+        .line {
+            stroke: #ff4500;
+            stroke-width: 5;
+            stroke-dasharray: 100;
+            stroke-dashoffset: 100;
+            animation: draw 1.5s ease-in-out forwards 1s, colorChange 4s infinite alternate;
+        }
+        .rect {
+            fill: none;
+            stroke: #ffcc00;
+            stroke-width: 5;
+            stroke-dasharray: 200;
+            stroke-dashoffset: 200;
+            animation: draw 2s ease-in-out forwards 2s, colorChange 4s infinite alternate;
+        }
+        @keyframes draw {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+        @keyframes colorChange {
+            0% {
+                stroke: #00ffcc;
+            }
+            50% {
+                stroke: #ff4500;
+            }
+            100% {
+                stroke: #ffcc00;
+            }
+        }
+    </style>
+</head>
+<body>
+    <svg viewBox="0 0 100 100">
+        <circle class="circle" cx="50" cy="50" r="40" />
+        <line class="line" x1="20" y1="80" x2="80" y2="20" />
+        <rect class="rect" x="25" y="25" width="50" height="50" />
+    </svg>
+</body>
+</html>
